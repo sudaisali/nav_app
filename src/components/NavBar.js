@@ -1,5 +1,6 @@
 import React from 'react'
-
+import PropTypes from 'prop-types'
+import { calculateNewValue } from '@testing-library/user-event/dist/utils';
 export default function NavBar(props) {
   return (
     <div>
@@ -29,3 +30,5 @@ export default function NavBar(props) {
     </div>
   );
 }
+
+NavBar.propTypes = {title: PropTypes.string}
