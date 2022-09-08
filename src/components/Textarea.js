@@ -34,7 +34,7 @@ export default function Textarea(props) {
       </div>
       <button className="btn btn-primary mx-1" onClick={Uppercase}>Convert to Upper cases</button>
       <button className="btn btn-primary mx-1"onClick={Lowercase}>Convert to lower case</button>
-     
+        
     </div>
     <div className='container my-3'>
       
